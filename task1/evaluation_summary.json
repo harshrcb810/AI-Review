@@ -1,0 +1,65 @@
+[
+  {
+    "approach": "Approach 1: Direct Classification",
+    "processing_time": 42.146469593048096,
+    "accuracy": 10.0,
+    "json_validity": 100.0,
+    "mae": 1.14,
+    "predicted_distribution": {
+      "5": 46,
+      "3": 34,
+      "2": 41,
+      "1": 43,
+      "4": 36
+    },
+    "actual_distribution": {
+      "3": 39,
+      "1": 46,
+      "0": 42,
+      "2": 39,
+      "4": 34
+    }
+  },
+  {
+    "approach": "Approach 2: Criteria-Based Analysis",
+    "processing_time": 43.63703989982605,
+    "accuracy": 14.499999999999998,
+    "json_validity": 100.0,
+    "mae": 1.07,
+    "predicted_distribution": {
+      "4": 38,
+      "2": 41,
+      "3": 27,
+      "1": 50,
+      "5": 44
+    },
+    "actual_distribution": {
+      "3": 39,
+      "1": 46,
+      "0": 42,
+      "2": 39,
+      "4": 34
+    }
+  },
+  {
+    "approach": "Approach 3: Few-Shot Learning",
+    "processing_time": 43.601449728012085,
+    "accuracy": 9.0,
+    "json_validity": 100.0,
+    "mae": 1.155,
+    "predicted_distribution": {
+      "5": 44,
+      "3": 30,
+      "2": 47,
+      "1": 38,
+      "4": 41
+    },
+    "actual_distribution": {
+      "3": 39,
+      "1": 46,
+      "0": 42,
+      "2": 39,
+      "4": 34
+    }
+  }
+]
